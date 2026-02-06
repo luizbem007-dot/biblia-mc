@@ -9,7 +9,6 @@ export default function LenisProvider({ children }: { children: ReactNode }) {
       duration: 1.2,
       easing: (t: number) => 1 - Math.pow(1 - t, 3),
       smoothWheel: true,
-      smoothTouch: false,
     });
 
     let rafId = 0;
