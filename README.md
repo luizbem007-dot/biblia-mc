@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Landing page para a Bíblia Devocional Robert Murray McCheyne, construída com Next.js App Router, TailwindCSS, Framer Motion, GSAP, Three.js, Lenis e Swiper.
 
 ## Getting Started
 
@@ -16,9 +16,9 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Os componentes estão em `src/components`, estilos em `src/app/globals.css` e o setup 3D em `src/lib/three-setup.ts`.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+As imagens em `public/images` são placeholders em SVG e devem ser substituídas por imagens reais otimizadas (WebP/JPEG).
 
 ## Learn More
 
