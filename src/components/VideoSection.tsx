@@ -32,10 +32,14 @@ export default function VideoSection() {
           </motion.p>
           <motion.div variants={fadeUp} className="video-shell">
             <div className="video-frame" aria-label="Vídeo principal">
-              <video className="video-player" controls playsInline preload="metadata">
-                <source src="/images/video.webm" type="video/webm" />
-                Seu navegador não suporta vídeo.
-              </video>
+              <div className="video-embed">
+                <iframe
+                  src="https://www.youtube.com/embed/mlwfj4ffxgM"
+                  title="Vídeo principal"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                />
+              </div>
             </div>
           </motion.div>
           <motion.div variants={fadeUp} className="grid gap-4 text-left sm:grid-cols-2">
