@@ -14,7 +14,7 @@ export const fadeUp = {
     opacity: 1,
     y: 0,
     filter: "blur(0px)",
-    transition: { duration: 0.8, ease: "easeOut" },
+    transition: { duration: 0.8, ease: [0.16, 1, 0.3, 1] },
   },
 };
 
@@ -23,7 +23,7 @@ export const fadeLeft = {
   show: {
     opacity: 1,
     x: 0,
-    transition: { duration: 0.8, ease: "easeOut" },
+    transition: { duration: 0.8, ease: [0.16, 1, 0.3, 1] },
   },
 };
 
@@ -32,7 +32,7 @@ export const fadeRight = {
   show: {
     opacity: 1,
     x: 0,
-    transition: { duration: 0.8, ease: "easeOut" },
+    transition: { duration: 0.8, ease: [0.16, 1, 0.3, 1] },
   },
 };
 
@@ -41,6 +41,6 @@ export const scaleIn = {
   show: {
     opacity: 1,
     scale: 1,
-    transition: { duration: 0.6, ease: "easeOut" },
+    transition: { duration: 0.6, ease: [0.16, 1, 0.3, 1] },
   },
 };
